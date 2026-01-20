@@ -1,160 +1,144 @@
-🎭 Carnaval Conectado Brasil
-Infraestructura Tecnológica para un Evento Masivo
-📌 Descripción del proyecto
+# 🎭 Carnaval Conectado Brasil  
+## Infraestructura Tecnológica para un Evento Masivo
 
-Carnaval Conectado Brasil es un proyecto de diseño e implementación de una infraestructura de interconexión de redes (internetwork) para un evento masivo de alcance nacional.
-El escenario simula un entorno real donde múltiples sedes distribuidas geográficamente deben comunicarse de forma segura, ordenada y eficiente para garantizar la correcta operación del Carnaval de Brasil.
+---
 
-El proyecto integra redes LAN, enlaces WAN, segmentación lógica, servicios centralizados, redes inalámbricas e IoT, aplicando principios fundamentales de redes empresariales.
+## 📌 Descripción del proyecto
+**Carnaval Conectado Brasil** es un proyecto de diseño e implementación de una  
+**infraestructura de interconexión de redes (internetwork)** para un evento masivo de alcance nacional.
 
-🎯 Objetivo general
+El escenario simula un entorno real donde múltiples sedes distribuidas geográficamente deben comunicarse de forma segura, organizada y eficiente para garantizar la correcta planificación, ejecución y supervisión del Carnaval de Brasil.
 
-Diseñar e implementar una solución de red que permita la interconexión de múltiples sedes, integrando usuarios, servicios y dispositivos distribuidos, garantizando conectividad, segmentación, administración remota y escalabilidad.
+El proyecto integra **redes LAN, enlaces WAN, segmentación lógica, servicios centralizados, redes inalámbricas e Internet de las Cosas (IoT)**, aplicando principios fundamentales de redes empresariales.
 
-🌎 Sedes interconectadas
+---
 
+## 🎯 Objetivo general
+Diseñar e implementar una solución de red que permita la **interconexión de múltiples sedes**, integrando usuarios, servicios y dispositivos distribuidos, garantizando conectividad, segmentación, administración remota y escalabilidad.
+
+---
+
+## 🌎 Sedes interconectadas
 La infraestructura conecta las siguientes sedes del Carnaval:
 
-Río de Janeiro – Sede Central y Centro de Operaciones
+- **Río de Janeiro** – Sede Central y Centro de Operaciones  
+- **São Paulo** – Producción audiovisual y medios de comunicación  
+- **Salvador** – Operaciones logísticas y escenarios  
+- **Recife** – Seguridad, control y soporte técnico  
 
-São Paulo – Producción audiovisual y medios de comunicación
+La **Sede Central de Río de Janeiro** actúa como el nodo principal de interconexión de la red.
 
-Salvador – Operaciones logísticas y escenarios
+---
 
-Recife – Seguridad, control y soporte técnico
+## 🔗 Conectividad WAN
+Las sedes se interconectan mediante enlaces de área amplia (WAN):
 
-La Sede Central de Río de Janeiro actúa como el nodo principal de interconexión.
-
-🔗 Conectividad WAN
-
-Las sedes se interconectan mediante enlaces WAN:
-
-São Paulo ↔ Río de Janeiro
-
-Salvador ↔ Río de Janeiro
-
-Recife ↔ Río de Janeiro
+- São Paulo ↔ Río de Janeiro  
+- Salvador ↔ Río de Janeiro  
+- Recife ↔ Río de Janeiro  
 
 Cada enlace contempla:
+- Una **ruta principal** de comunicación  
+- Una **ruta secundaria (redundancia lógica)** para garantizar la continuidad del servicio ante fallas
 
-Ruta principal de comunicación
+---
 
-Ruta secundaria (redundancia lógica) para garantizar continuidad del servicio ante fallas
+## 🧩 Organización interna de la red
+Dentro de cada sede, la red se segmenta para separar adecuadamente:
 
-🧩 Organización interna de la red
+- Áreas administrativas  
+- Logística y producción  
+- Prensa y comunicación  
+- Seguridad y control  
 
-Dentro de cada sede se segmenta la red para separar:
+Esta segmentación mejora el rendimiento, la seguridad y el orden de la infraestructura.
 
-Áreas administrativas
+---
 
-Logística y producción
+## 📡 Red inalámbrica
+El proyecto contempla conectividad inalámbrica para:
 
-Prensa y comunicación
+- Personal operativo en campo  
+- Prensa acreditada  
+- Personal técnico y de apoyo  
 
-Seguridad y control
+La red WiFi se integra correctamente con la red cableada, evitando afectar los servicios críticos.
 
-Esta segmentación evita congestión, mejora la seguridad y optimiza el rendimiento.
+---
 
-📡 Red inalámbrica
+## 🖥️ Servicios centralizados
+En la Sede Central se implementan servicios clave, como:
 
-El proyecto integra conectividad inalámbrica para:
+- **Servidor web institucional**, que contiene:
+  - Programación oficial del Carnaval  
+  - Horarios de comparsas  
+  - Eventos y actividades planificadas  
+  - Información general del evento  
 
-Personal operativo en campo
+Estos servicios son accesibles desde las distintas sedes según las necesidades operativas.
 
-Prensa acreditada
+---
 
-Personal técnico y de apoyo
+## 🌐 Internet de las Cosas (IoT)
+El proyecto incorpora infraestructura **IoT orientada al monitoreo y la seguridad**, implementada estratégicamente en:
 
-La red WiFi se diseña para convivir con la red cableada sin afectar los servicios críticos.
+### 📍 Río de Janeiro – Sede Central
+- Cámaras de vigilancia  
+- Sensores de presencia  
+- Sensores de temperatura y humedad  
+- Monitoreo del Data Center y áreas críticas  
 
-🖥️ Servicios centralizados
+### 📍 Salvador – Sede Operativa
+- Cámaras y sensores en escenarios principales  
+- Sensores ambientales en áreas logísticas y técnicas  
 
-En la Sede Central se alojan servicios clave, como:
+---
 
-Servidor web institucional, que contiene:
+## 🔐 Administración y acceso remoto
+La infraestructura permite que el personal técnico autorizado pueda:
 
-Programación oficial del Carnaval
+- Acceder remotamente a los dispositivos de red  
+- Administrar y mantener la infraestructura durante el evento  
+- Supervisar el funcionamiento de la red en tiempo real  
 
-Horarios de comparsas
+---
 
-Información general del evento
+## 🛠️ Tecnologías y herramientas utilizadas
+- Cisco Packet Tracer  
+- Routers y Switches  
+- VLANs  
+- Enlaces WAN  
+- Redes inalámbricas  
+- Servidores  
+- Dispositivos IoT  
 
-Estos servicios son accesibles desde las sedes según sus necesidades operativas.
+---
 
-🌐 Internet de las Cosas (IoT)
-
-El proyecto incorpora infraestructura IoT orientada a seguridad y monitoreo, implementada estratégicamente en:
-
-📍 Río de Janeiro
-
-Cámaras de vigilancia
-
-Sensores de presencia
-
-Sensores de temperatura y humedad
-
-Monitoreo del Data Center y áreas críticas
-
-📍 Salvador
-
-Cámaras y sensores en escenarios principales
-
-Sensores ambientales en áreas logísticas
-
-🔐 Administración y acceso remoto
-
-La red permite que el personal técnico autorizado pueda:
-
-Administrar dispositivos de red remotamente
-
-Supervisar el estado de la infraestructura
-
-Realizar mantenimiento durante el evento
-
-🛠️ Tecnologías y herramientas
-
-Cisco Packet Tracer
-
-Routers y Switches
-
-VLANs
-
-Enlaces WAN
-
-Redes inalámbricas
-
-Servidores
-
-Dispositivos IoT
-
-📂 Contenido del repositorio
+## 📂 Contenido del repositorio
 📁 Proyecto-Carnaval-Conectado-Brasil
- ├── 📄 README.md
- ├── 📄 Proyecto_Interconexion_Carnaval_Conectado_Brasil.pdf
- ├── 📁 PacketTracer
- │    └── Carnaval_Conectado_Brasil.pkt
- └── 📁 Documentacion
+├── 📄 README.md
+├── 📄 Proyecto_Interconexion_Carnaval_Conectado_Brasil.pdf
+├── 📁 PacketTracer
+│ └── Carnaval_Conectado_Brasil.pkt
+└── 📁 Documentacion
 
-📚 Alcance académico
+---
 
+## 📚 Alcance académico
 Este proyecto cumple con los siguientes requerimientos:
 
-Análisis del escenario planteado
+- Análisis del escenario planteado  
+- Diseño de una topología de red adecuada  
+- Propuesta de interconexión entre sedes  
+- Definición de la segmentación interna  
+- Integración de servicios, red inalámbrica e IoT  
+- Implementación de una internetwork funcional  
 
-Diseño de topología de red
+---
 
-Interconexión entre sedes
-
-Segmentación interna
-
-Integración de servicios, WiFi e IoT
-
-Implementación de una internetwork funcional
-
-👨‍🎓 Autores
-
-Luis Lema
-Chris
-Mateo
-Estudiantes universitarios – Redes
+## 👨‍🎓 Autores
+**Luis Lema**  
+**Chris** 
+**Mateo** 
+Estudiantes universitarios  
 Escuela Politécnica Nacional (EPN)
