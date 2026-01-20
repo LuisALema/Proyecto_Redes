@@ -115,12 +115,15 @@ La infraestructura permite que el personal técnico autorizado pueda:
 ---
 
 ## 📂 Contenido del repositorio
+
+```text
 📁 Proyecto-Carnaval-Conectado-Brasil
 ├── 📄 README.md
 ├── 📄 Proyecto_Interconexion_Carnaval_Conectado_Brasil.pdf
 ├── 📁 PacketTracer
-│ └── Carnaval_Conectado_Brasil.pkt
+│   └── Carnaval_Conectado_Brasil.pkt
 └── 📁 Documentacion
+```
 
 ---
 
